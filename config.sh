@@ -2,7 +2,7 @@
 apt update -y
 apt install gh screen neovim nvtop -y
 pip install -U poetry
-gh auth login --with-token
+gh auth login 
 gh repo clone jina-ai/jerboa
 cd jerboa
 pwd

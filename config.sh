@@ -1,4 +1,3 @@
-#!/usr/bin/bsh
 apt update -y
 apt install gh screen neovim nvtop -y
 pip install -U poetry

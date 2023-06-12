@@ -9,3 +9,4 @@ poetry config virtualenvs.create false \
      && poetry install --no-interaction --no-ansi
 
 poetry run pip install torch
+screen -S training_screen

@@ -9,4 +9,5 @@ poetry config virtualenvs.create false \
      && poetry install --no-interaction --no-ansi
 
 poetry run pip install torch
+wandb login
 screen -S training_screen

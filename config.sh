@@ -10,5 +10,5 @@ poetry config virtualenvs.create false \
 
 poetry run pip install torch
 wandb login
-poetry run pip install https://github.com/samsja/bitsandbytes/blob/feat-save-col-wheel/bitsandbytes-0.39.1-py3-none-any.whl\?raw\=true
+# poetry run pip install https://github.com/samsja/bitsandbytes/blob/feat-save-col-wheel/bitsandbytes-0.39.1-py3-none-any.whl\?raw\=true
 screen -S training_screen
